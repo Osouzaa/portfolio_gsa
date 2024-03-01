@@ -15,9 +15,7 @@ export const HomeStyle = styled.div`
     height: 60vh;
   }
 
-  @media screen and (max-width: 420px) {
-    height: 50vh;
-  }
+  
 `;
 
 export const InfoStyle = styled.div`
