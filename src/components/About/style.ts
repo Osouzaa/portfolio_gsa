@@ -61,6 +61,7 @@ export const AboutContent = styled.div`
     @media screen and (max-width: 823px) {
       font-size: 32px;
     }
+   
   }
   p {
     color: #fff;
@@ -87,7 +88,8 @@ export const AboutContent = styled.div`
       width: 70%;
     }
     @media screen and (max-width: 420px) {
-      font-size: 15px;
+      font-size: 18px;
+      width: 80%;
     }
   }
 
