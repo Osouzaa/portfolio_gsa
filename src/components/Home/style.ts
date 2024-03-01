@@ -14,6 +14,10 @@ export const HomeStyle = styled.div`
   @media screen and (max-width: 823px) {
     height: 60vh;
   }
+
+  @media screen and (orientation: landscape) {
+    height: 100vh; 
+  }
 `;
 
 export const InfoStyle = styled.div`
@@ -38,7 +42,6 @@ export const ContentInfo = styled.div`
     @media screen and (max-width: 823px) {
       font-size: 18px;
     }
-  
   }
 
   h3 {

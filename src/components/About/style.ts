@@ -18,6 +18,10 @@ export const AboutStyle = styled.div`
   @media screen and (max-width: 420px) {
     height: 75vh;
   }
+
+  @media screen and (orientation: landscape) {
+    height: 100vh;
+  }
 `;
 
 export const ContainerStyle = styled.div`
@@ -33,6 +37,9 @@ export const ContainerStyle = styled.div`
   @media screen and (max-width: 420px) {
     height: 70%;
     gap: 2em;
+  }
+  @media screen and (orientation: landscape) {
+    flex-direction: row;
   }
 `;
 
@@ -61,7 +68,6 @@ export const AboutContent = styled.div`
     @media screen and (max-width: 823px) {
       font-size: 32px;
     }
-   
   }
   p {
     color: #fff;
@@ -90,6 +96,11 @@ export const AboutContent = styled.div`
     @media screen and (max-width: 420px) {
       font-size: 18px;
       width: 80%;
+    }
+
+    @media screen and (orientation: landscape) {
+      font-size: 18px;
+      width: 90%;
     }
   }
 
